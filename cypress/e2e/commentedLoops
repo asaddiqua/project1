@@ -1,0 +1,30 @@
+/*cy.get('#startDate').click();
+cy.get('.uib-datepicker-popup.dropdown-menu.ng-scope').eq(0)
+//.find('.ng-binding.text-muted')
+  .find('.ng-binding')
+.each((el)=> {
+const date =el.text()
+cy.log(date)
+if(date==='25')
+{
+  cy.wrap(el).click();
+}
+})
+//End date 
+cy.get('#endDate').click();
+
+//cy.get('.uib-datepicker-popup.dropdown-menu.ng-scope'+1).eq(0)
+cy.get('#datepicker-2187-6304-title')
+.find('.ng-binding')
+.each((el)=> {
+const date =el.text()
+cy.log(date)
+if(date==='29')
+{
+  cy.wrap(el).click();
+}
+})*/
+
+//cy.get('body > header > div > nav > ul.nav.navbar-nav.ng-scope > li:nth-child(3) > a > span.ng-scope').click();
+//cy.get('.open > .dropdown-menu > :nth-child(2) > a > .ng-scope').click();
+//cy.get('.list-group > [style=""]')
